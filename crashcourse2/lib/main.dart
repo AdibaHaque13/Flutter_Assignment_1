@@ -1,3 +1,4 @@
+import 'package:crashcourse2/TipCalculator/Tip%20Calculator.dart';
 import 'package:flutter/material.dart';
 import 'package:crashcourse2/Screen/home.dart';
 void main() {
@@ -18,7 +19,7 @@ class MainApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.black),
         useMaterial3: true,
       ),
-      home: const HomePage(),
+      home: const TipCalculator(),
     );
   }
 }
